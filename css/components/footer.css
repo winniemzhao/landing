@@ -1,0 +1,36 @@
+.footer{
+  color: rgb(250, 250, 250);
+  background-color: rgb(34, 94, 168);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+margin: 0 8px;
+}
+
+.footer li a{
+  font-size: 32px;
+  color:rgb(250, 250, 250);
+}
+
+.footer li a:hover{
+  color:rgb(230, 230, 230);
+}
+
+.footer li a:active{
+  text-shadow: 2px 2px 20px rgb(10, 10, 10, 0.2);
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
